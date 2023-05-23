@@ -1,4 +1,8 @@
 import {
+  fb,
+  insta,
+  linkedin,
+  gits,
   mobile,
   backend,
   creator,
@@ -40,22 +44,22 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const socials = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "gits",
+    icon: gits,
+    visit: "https://github.com/PrateekUp",
+  },
+
+  {
+    title: "linkedin",
+    icon: linkedin,
+    visit: "https://www.linkedin.com/in/prateek-kumar-1472p/",
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "instagram",
+    icon: insta,
+    visit: "https://www.instagram.com/_prateek147/",
   },
 ];
 
@@ -262,4 +266,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { socials, technologies, experiences, testimonials, projects };

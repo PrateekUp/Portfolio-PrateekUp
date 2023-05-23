@@ -6,6 +6,12 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import pic from "./pic.jpg";
+
+import fb from "./fb.png";
+import gits from "./gits.png";
+import linkedin from "./linkedin.png";
+import insta from "./insta.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +37,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  fb,
+  insta,
+  linkedin,
+  gits,
+  pic,
   logo,
   backend,
   creator,
