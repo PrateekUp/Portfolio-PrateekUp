@@ -23,7 +23,7 @@ const SocialCard = ({ index, title, icon, visit }) => {
           }}
           className="bg-tertiary rounded-full flex justify-evenly items-center"
         >
-          <a href={visit}>
+          <a href={visit} target="_blank">
             <img
               src={icon}
               alt="icon"
@@ -48,7 +48,11 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="py-5 flex items-start justify-center"
         >
-          <img src={pic} alt="pic" className="w-72 rounded-full shadow-card" />
+          <img
+            src={pic}
+            alt="pic"
+            className="md:w-72 w-60 rounded-full shadow-card"
+          />
         </motion.div>
         <div className="flex flex-col px-8">
           <motion.p

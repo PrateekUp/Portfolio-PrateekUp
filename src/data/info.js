@@ -120,8 +120,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Coordinator, Sponsorship and Marketing",
+    company_name: "Anwesha '23",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
