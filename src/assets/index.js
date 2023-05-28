@@ -13,7 +13,16 @@ import gits from "./gits.png";
 import linkedin from "./linkedin.png";
 import insta from "./insta.png";
 
+import fc from "./tech/fc.png";
+import drone from "./tech/drone.jpg";
+import ds from "./tech/ds.png";
+import chat from "./tech/chat.png";
+import weather from "./tech/weather.png";
+import sudoku from "./tech/sudoku.png";
 import css from "./tech/css.png";
+import c from "./tech/c.png";
+import python from "./tech/python.png";
+import hr from "./tech/hr.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -37,6 +46,12 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  fc,
+  weather,
+  drone,
+  chat,
+  sudoku,
+  ds,
   fb,
   insta,
   linkedin,
@@ -54,6 +69,9 @@ export {
   docker,
   figma,
   git,
+  c,
+  hr,
+  python,
   html,
   javascript,
   mongodb,
