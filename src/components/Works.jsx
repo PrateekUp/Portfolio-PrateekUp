@@ -18,7 +18,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="flex"
+      className="flex align-middle"
     >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}

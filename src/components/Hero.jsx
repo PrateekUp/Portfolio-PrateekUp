@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute inset-0 sm:top-[110px] top-[130px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[170px] left-[-10px] justify-center align-middle max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -26,6 +26,7 @@ const Hero = () => {
                 options={{
                   strings: [
                     "FullStack Developer",
+                    "Open Source Developer",
                     "Competitive Programmer",
                     "Mechanical Engineer",
                   ],
@@ -37,7 +38,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute sm:bottom-12 bottom-24 w-full flex justify-center items-center">
         <a href="#about">

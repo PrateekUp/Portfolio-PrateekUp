@@ -88,5 +88,4 @@ const About = () => {
     </>
   );
 };
-
 export default sectionWrapper(About, "about");
