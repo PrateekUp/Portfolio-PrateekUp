@@ -22,9 +22,9 @@ const ProjectCard = ({
     >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-2 sm:p-4 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary justify-evenly p-2 sm:p-4 rounded-2xl sm:w-[360px] w-full overflow-hidden"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[200px]">
           <img
             src={image}
             alt={name}

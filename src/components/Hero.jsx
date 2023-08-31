@@ -20,15 +20,15 @@ const Hero = () => {
           </h3>
 
           <p className={`${styles.heroSubText} text-white flex`}>
-            I'm a&nbsp;
+            I'm&nbsp;
             <span>
               <Typewriter
                 options={{
                   strings: [
-                    "FullStack Developer",
-                    "Open Source Developer",
-                    "Competitive Programmer",
-                    "Mechanical Engineer",
+                    "a FullStack Developer",
+                    "an Open Source Developer",
+                    "a Problem Solver",
+                    "a Mechanical Engineer",
                   ],
                   autoStart: true,
                   loop: true,
